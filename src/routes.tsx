@@ -27,7 +27,7 @@ export function Routes() {
       ),
       children: [
         {
-          path: "reports",
+          index: true,
           element: <ReportsPage />,
         },
       ],
